@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "stackathon",
-    "slug": "stackathon",
+    "name": "MotorFi",
+    "slug": "motorfi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Stackathon Project for FullStack Academy. MotorFi is a react-native app that lets users browse a selection of high end automobiles, as well as view technical specs per car and availability on forums.",
+    "githubUrl": "https://github.com/ScottGetz/stackathon"
   }
 }

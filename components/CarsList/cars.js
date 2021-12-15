@@ -1,5 +1,6 @@
 export default [
     {
+        manufacturer: "Porsche",
         name: "Porsche GT3",
         tagline: "Starting at $161,100",
         maxPower: "502 hp",
@@ -10,6 +11,7 @@ export default [
         image: require("../../assets/images/pgt3.jpeg"),
     },
     {
+        manufacturer: "Porsche",
         name: " 911 Turbo S",
         tagline: "Starting at $63,100",
         maxPower: "502 hp",
@@ -20,6 +22,7 @@ export default [
         image: require("../../assets/images/turbos.jpeg"),
     },
     {
+        manufacturer: "BMW",
         name: "BMW E92 M3",
         tagline: " Starting at $40,000",
         maxPower: "420 hp",
@@ -30,6 +33,7 @@ export default [
         image: require("../../assets/images/e92m3.jpeg"),
     },
     {
+        manufacturer: "BMW",
         name: "BMW M4",
         tagline: "Starting at $60,100",
         maxPower: "473 hp",
@@ -40,6 +44,7 @@ export default [
         image: require("../../assets/images/m4.jpeg"),
     },
     {
+        manufacturer: "Ford",
         name: "Mustang GT350",
         tagline: "Starting at $60,100",
         maxPower: "526 hp",
@@ -50,6 +55,7 @@ export default [
         image: require("../../assets/images/gt350.jpeg"),
     },
     {
+        manufacturer: "Chevrolet",
         name: "Camaro 2SS",
         tagline: "Starting at $63,100",
         maxPower: "455 hp",
@@ -60,6 +66,7 @@ export default [
         image: require("../../assets/images/camaro.jpeg"),
     },
     {
+        manufacturer: "Chevrolet",
         name: "Corvette Z06",
         tagline: "Starting at $60,100",
         maxPower: "670 hp",
