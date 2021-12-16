@@ -50,10 +50,10 @@ const CarItem = (props) => {
                         />
                     </TouchableOpacity>
                     <View style={styles.modalText}>
+                        <Text style={{ fontStyle: "italic" }}>"{quote}"</Text>
                         <Text>Max Power: {maxPower}</Text>
                         <Text>Max Torque: {maxTorque}</Text>
                         <Text>Top Track Speed: {trackSpeed}</Text>
-                        <Text style={{ fontStyle: "italic" }}>"{quote}"</Text>
                     </View>
                 </View>
             </Modal>

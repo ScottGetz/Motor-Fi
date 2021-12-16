@@ -1,23 +1,47 @@
-import React from "react";
-import { View, Image, Text } from "react-native";
-
+import React, { useState } from "react";
+import { View, Image, Text, Modal, TouchableOpacity } from "react-native";
+import StyledButton from "../StyledButton";
 import styles from "./styles";
 
 const Header = () => {
+    const [modalOpen, setModalOpen] = useState(false);
     return (
         <View style={styles.container}>
-            {/* <Image
-                style={styles.logo}
-                source={require("../../assets/images/stacklogo.png")}
-            /> */}
-            <Image
-                style={styles.menu}
-                source={require("../../assets/images/menu.png")}
-            />
+            <TouchableOpacity
+                onPress={() => {
+                    setModalOpen(true);
+                }}
+            >
+                <Image
+                    style={styles.logo}
+                    source={require("../../assets/icon.png")}
+                />
+            </TouchableOpacity>
             <View>
-                <Text style={({ alignSelf: "flex-end" }, { fontSize: 25 })}>
-                    MotorFi
-                </Text>
+                <Modal
+                    visible={modalOpen}
+                    animationType="fade"
+                    transparent={true}
+                >
+                    <View style={styles.modalContainer}>
+                        <TouchableOpacity
+                            onPress={() => {
+                                setModalOpen(false);
+                            }}
+                        >
+                            <Image
+                                source={require("../../assets/images/x.png")}
+                                style={styles.modalButton}
+                            />
+                        </TouchableOpacity>
+                        <View>
+                            <Text style={styles.modalText}>
+                                Welcome to Motor-Fi! Browse our gallery of some
+                                of the most iconic cars in automotive history!
+                            </Text>
+                        </View>
+                    </View>
+                </Modal>
             </View>
         </View>
     );

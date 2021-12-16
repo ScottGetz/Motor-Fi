@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MotorFi",
-    "slug": "motorfi",
+    "name": "Motor-Fi",
+    "slug": "motor-fi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,7 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Stackathon Project for FullStack Academy. MotorFi is a react-native app that lets users browse a selection of high end automobiles, as well as view technical specs per car and availability on forums.",
+    "description": "Hello, my name is Scott Getz and this is my Stackathon Project for FullStack Academy. I have a burning passion for cars, and the car community, so I really enjoyed developing this application. Motor-Fi is a react-native app that showcases my personal favorite cars. Motor-Fi allows users to scroll through the gallery of provided vehicles, view technical specs of those vehicles, as well as forums listing them for sale.",
     "githubUrl": "https://github.com/ScottGetz/stackathon"
   }
 }
