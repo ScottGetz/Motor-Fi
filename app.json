@@ -22,7 +22,6 @@
     },
     "android": {
       "adaptiveIcon": {
-        "package": "com.scottgetz.motor-fi",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
