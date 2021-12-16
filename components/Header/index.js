@@ -1,22 +1,19 @@
 import React, { useState } from "react";
 import { View, Image, Text, Modal, TouchableOpacity } from "react-native";
-import StyledButton from "../StyledButton";
+import IconButton from "../StyledButton/iconButton";
 import styles from "./styles";
 
 const Header = () => {
     const [modalOpen, setModalOpen] = useState(false);
     return (
         <View style={styles.container}>
-            <TouchableOpacity
+            <IconButton
+                type={"primary"}
+                content={"Motor-Fi"}
                 onPress={() => {
                     setModalOpen(true);
                 }}
-            >
-                <Image
-                    style={styles.logo}
-                    source={require("../../assets/icon.png")}
-                />
-            </TouchableOpacity>
+            ></IconButton>
             <View>
                 <Modal
                     visible={modalOpen}
@@ -36,7 +33,7 @@ const Header = () => {
                         </TouchableOpacity>
                         <View>
                             <Text style={styles.modalText}>
-                                Welcome to Motor-Fi! Browse our gallery of some
+                                Welcome to Motor-Fi. Browse our gallery of some
                                 of the most iconic cars in automotive history!
                             </Text>
                         </View>

@@ -5,6 +5,17 @@ const styles = StyleSheet.create({
         width: "100%",
         padding: 10,
     },
+
+    iconContainer: {
+        width: "30%",
+    },
+    iconButton: {
+        backgroundColor: "rgba(130,130,130,0.80)",
+        height: 40,
+        borderRadius: 20,
+        justifyContent: "center",
+        alignItems: "center",
+    },
     button: {
         height: 40,
         borderRadius: 20,
