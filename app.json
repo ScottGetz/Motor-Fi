@@ -4,7 +4,7 @@
     "slug": "motor-fi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/splash.png",
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,10 +17,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.scottgetz.motor-fi",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.scottgetz.motor-fi",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
